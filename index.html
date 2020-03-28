@@ -2,13 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      @media screen and (min-width: 480px) {
+        body {
+          background-color: lightgreen;
+        }
+      }
+
+      #nav-bar {
+        display: flex;
+      }
+    </style>
   </head>
   <body>
     
     <header id="header">
-      <img src="https://bit.ly/2UqeDjC" id="header-img">
+      <img src="https://bit.ly/2UqeDjC" id="header-img" width="250px" height="250px">
       <nav id="nav-bar">
         <a href="#about" class="nav-link">About</a>
         <a href="#contact" class="nav-link">Contact</a>
@@ -17,10 +29,12 @@
     </header>
 
     <section id="about">
-      <video src="" id="video"></video>
+      <h1>About</h1>
+      <video src="https://www.youtube.com/watch?v=m08i8oXpFB0" controls id="video">Video Not Supported</video>
     </section>
 
     <section id="contact">
+      <h1>Contact</h1>
       <form action="https://www.freecodecamp.com/email-submit" id="form">
         <input type="email" id="email" placeholder="E-mail" required name="email">
         <input type="submit" id="submit" value="Submit">
@@ -28,7 +42,7 @@
     </section>
 
     <section id="fillings">
-
+      <h1>Fillings</h1>
     </section>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

@@ -1,0 +1,12 @@
+body {
+    position: relative;
+    top: 0;
+}
+#header {
+    position: fixed;
+    top: 0;
+}
+
+#about {
+    position: relative;
+}
