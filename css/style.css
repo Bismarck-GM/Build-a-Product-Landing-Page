@@ -7,6 +7,14 @@ body {
     top: 0;
 }
 
+#nav-bar {
+    background: white;
+}
+
 #about {
-    position: relative;
+    padding-top: 300px;
+}
+
+#header-img {
+    background: white;
 }
